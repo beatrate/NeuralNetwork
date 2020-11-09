@@ -61,3 +61,6 @@
 #*.PDF   diff=astextplain
 #*.rtf   diff=astextplain
 #*.RTF   diff=astextplain
+
+NeuralNetwork/Data/mnist_test.csv filter=lfs diff=lfs merge=lfs -text
+NeuralNetwork/Data/mnist_train.csv filter=lfs diff=lfs merge=lfs -text
